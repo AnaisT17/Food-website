@@ -75,7 +75,7 @@ header .icons a{
     color: var(--black);
     border-radius: 50%;
     background: #eee;
- }
+}
 
 header .icons i:hover,
 header .icons a:hover{
@@ -113,20 +113,18 @@ header .icons #menu-bars {
 
     header .navbar{
         position: absolute;
-        top:100%; 
-        left:0; 
-        right:0;
+        top:100%; left:0; right:0;
         background:#fff;
         border-top: .1rem solid rgba(0,0,0,.2);
         border-bottom: .1rem solid rgba(0,0,0,.2);
         padding: 1rem;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
-    header .navbar .active{
+    header .navbar.active{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
     header .navbar a{
-        display:none;
+        display:block;
         padding: 1.5rem;
         margin:1rem;
         font-size: 2rem;
@@ -136,5 +134,4 @@ header .icons #menu-bars {
     html{
         font-size: 50%;
     }
-    
 }
