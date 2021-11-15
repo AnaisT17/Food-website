@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site food responsive</title>
-
+    <!-- Lien swiper js cdn-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <!-- Lien font awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
     <!-- Lien fichier css personnalisé-->
@@ -41,7 +42,53 @@
         <i class="fas fa-times" id="close"></i>
     </form>
    
+<!-- Début Section Home -->
+<section class="home" id="home">
+    <div class="swiper-container home-slider">
+        <div class="swiper-wrapper wrapper">
+            
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Plat spécial</span>
+                        <h3>Pasta box</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure rem officiis sapiente!</p>
+                        <a href="#" class="btn">Commander maintenant</a>
+                </div>
+                    <div class="image">
+                        <img src="Images/restorer.jpg" alt="box pasta">
+                    </div>
+                </div>
+            
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Plat spécial</span>
+                    <h3>Sandwich box</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure rem officiis sapiente!</p>
+                    <a href="#" class="btn">Commander maintenant</a>
+                </div>
+                <div class="image">
+                    <img src="Images/menu1.jpg" alt="box sandwich">
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Plat spécial</span>
+                    <h3>Menu</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure rem officiis sapiente!</p>
+                    <a href="#" class="btn">Commander maintenant</a>
+                </div>
+                <div class="image">
+                    <img src="Images/dessert5.jpg" alt="Menu du jour">
+                </div>
+            </div>
+            </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
 
+<!-- Section Home fin -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- Lien fichier js personnalisé-->
     <script src="js/script.js"></script>
 </body>
