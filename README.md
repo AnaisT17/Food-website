@@ -20,8 +20,8 @@ https://swiperjs.com/
 **Lien font awesome cdn:**
 https://cdnjs.com/libraries/font-awesome
 
-**Lien google fonts (police Roboto):**
-https://fonts.google.com/specimen/Roboto
+**Lien google fonts (police Nunito):**
+https://fonts.google.com/specimen/Nunito
 
 **Images du site Unsplash:**
 https://unsplash.com/
